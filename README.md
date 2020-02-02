@@ -8,5 +8,5 @@
 ###### Finally, after more transformative work - replacing blanks in the state column to underscores, as well as indicating blank State variables as “other” - we were able to upload the data into SQL. We chose SQL because it allows us to manage the data in a more relational, regressive manner; this data is relatively structured. Any information we would need to extract about the virus can be accessed by specific queries that this database language provides.
 
 ## References
-######## https://systems.jhu.edu/research/public-health/ncov/
-######## Dataset: https://docs.google.com/spreadsheets/d/169AP3oaJZSMTquxtrkgFYMSp4gTApLTTWqo25qCpjL0/htmlview?usp=sharing&sle=true#
+###### https://systems.jhu.edu/research/public-health/ncov/
+###### Dataset: https://docs.google.com/spreadsheets/d/169AP3oaJZSMTquxtrkgFYMSp4gTApLTTWqo25qCpjL0/htmlview?usp=sharing&sle=true#
