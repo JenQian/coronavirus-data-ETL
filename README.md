@@ -1,6 +1,6 @@
 # coronavirus-data-ETL
 ## Coronavirus data transformation and sql ingestion
-## Jennifer Qian, Julian Massiah
+### Jennifer Qian, Julian Massiah
 ###### For the project, our group decided to Extract, Transform and Load (ETL) data based on the current Coronavirus outbreak. We found several google spreadsheet datasets, which documented the levels of contagion in the countries around the world. Each dataset was a measurement of the contagion on consecutive days between January 22th and January 27th, at 12-hour intervals. As a result, there are a total of 12 datasets.
 ###### Using Jupyter notebook, we first imported our tools. This required us to download and utilize the Google Spreadsheet API - first connecting to Google spreadsheet API to access the data, then bringing the data back from that API. We also had to download the tool Gspread Pandas, a package used to easily open the Google spreadsheet and interact with the datasets utilizing Pandas DataFrames.
 ###### The datasets are uploaded into Pandas. Two of the twelve datasets have mismatched column names. They are changed to match the rest of the datasets. The datasets are then joined into one dataframe. After performing said tasks, we again rename the columns. One of the main reasons for doing this is because the Forward Slash characters included in the column headers are not so friendly with SQL, and we drop them for more favorable characters.
